@@ -14,6 +14,8 @@
 @property(readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property(readonly, strong, nonatomic) NSManagedObjectModel * managedObjectModel;
 
+@property (strong,nonatomic)NSString *str;
+
 + (persistanceStack *)defaultPersistanceStack;
 - (void)saveContext;
 

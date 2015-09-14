@@ -17,4 +17,7 @@
 @dynamic parent;
 @dynamic childern;
 
+/*一起玩吧*/
+
+
 @end

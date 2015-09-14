@@ -10,7 +10,7 @@
 #import <XCTest/XCTest.h>
 
 @interface TreeTests : XCTestCase
-
+@property (strong,nonatomic)NSString *str;
 @end
 
 @implementation TreeTests

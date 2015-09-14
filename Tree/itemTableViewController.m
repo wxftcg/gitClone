@@ -10,6 +10,7 @@
 
 @interface itemTableViewController ()
 
+@property (strong,nonatomic)NSString *str;
 @end
 
 @implementation itemTableViewController

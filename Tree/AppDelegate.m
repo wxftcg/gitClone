@@ -9,7 +9,9 @@
 #import "AppDelegate.h"
 #import "persistanceStack.h"
 
+
 @interface AppDelegate ()
+@property (strong,nonatomic)NSString *str;
 
 @end
 

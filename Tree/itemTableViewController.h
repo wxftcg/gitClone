@@ -13,4 +13,5 @@
 
 @property(strong, nonatomic) Item *parent;
 
+@property (strong,nonatomic)NSString *str2;
 @end

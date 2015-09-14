@@ -12,7 +12,7 @@
 
 @property(readwrite, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property(readwrite, strong, nonatomic) NSManagedObjectModel * managedObjectModel;
-
+@property (strong,nonatomic)NSString *str1;
 @end
 
 @implementation persistanceStack
